@@ -1,0 +1,36 @@
+body {
+  background-color: #e3f2fd;
+  font-family: 'Times New Roman', serif;
+  color: #0d47a1;
+  text-align: center;
+}
+
+h1 {
+  color: #1565c0;
+}
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Golden hover */
+}
