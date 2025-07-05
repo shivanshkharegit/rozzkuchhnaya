@@ -1,0 +1,33 @@
+/* Common Styles (Desktop) */
+header {
+  padding: 30px;
+  text-align: center;
+  background-color: #7494ec;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* Responsive Styles (Mobile) */
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
