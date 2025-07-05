@@ -1,31 +1,39 @@
 @media screen and (max-width: 768px) {
   .container {
-    width: 90%;         /* Container ko chhota kar diya */
+    width: 95%;         /* Container ko chhota kar diya */
     height: auto;       /* Height automatic kar di */
-    margin: 20px auto;  /* Thoda gap upar neeche */
+    margin: 20px auto;
+    padding: 10px
+    border-radius: 15px/* Thoda gap upar neeche */
   }
 
   .form-box {
     width: 100%;       /* Pure width le raha hai mobile me */
-    padding: 20px;     /* Padding kam kar di */
+    padding: 10px;     /* Padding kam kar di */
   }
 
   .form-box form h1 {
-    font-size: 24px;   /* Heading size chhota */
+    font-size: 22px;
+    margin-bottom: 10px/* Heading size chhota */
   }
 
   .input-box input {
-    padding: 10px 15px;
+    padding: 10px 12px;
     font-size: 14px;
   }
 
   .btn {
-    height: 40px;
+    height: 38px;
     font-size: 14px;
   }
 
   .social-icons a {
-    padding: 8px;
-    font-size: 18px;
+    padding: 6px;
+    font-size: 16px;
+    margin: 5;
   }
+
+.toggle-panel p{
+  font-size: 12px;
+}
 }
