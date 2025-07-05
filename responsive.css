@@ -1,8 +1,70 @@
-/* ✅ Mobile (max-width: 600px) */
+/* Common Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  max-width: 900px;
+  width: 90%;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Common Form Box Styles */
+.form-box h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+  font-size: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #7494ec;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  font-size: 20px;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Mobile Styles */
 @media screen and (max-width: 600px) {
   .container {
-    width: 90%;
-    padding: 15px;
+    padding: 20px;
   }
 
   .form-box h1 {
@@ -10,17 +72,17 @@
   }
 
   .input-box input {
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 13px;
   }
 
   .btn {
-    height: 40px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 13px;
   }
 }
 
-/* ✅ Tablet (601px to 900px) */
+/* Tablet Styles */
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .container {
     width: 85%;
@@ -31,18 +93,9 @@
   }
 }
 
-/* ✅ Laptop/Desktop (min-width: 1200px) */
+/* Large Screen */
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 800px;
   }
-}
-
-.container {
-  max-width: 900px;
-  width: 95%;
-  margin: 40px auto;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
