@@ -1,33 +1,31 @@
-/* Common Styles (Desktop) */
-header {
-  padding: 30px;
-  text-align: center;
-  background-color: #7494ec;
-  color: white;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-/* Responsive Styles (Mobile) */
-@media (max-width: 768px) {
-  header {
-    padding: 15px;
-    font-size: 20px;
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;         /* Container ko chhota kar diya */
+    height: auto;       /* Height automatic kar di */
+    margin: 20px auto;  /* Thoda gap upar neeche */
   }
 
-  nav {
-    display: flex;
-    flex-direction: column;
+  .form-box {
+    width: 100%;       /* Pure width le raha hai mobile me */
+    padding: 20px;     /* Padding kam kar di */
   }
 
-  nav a {
-    margin: 10px 0;
+  .form-box form h1 {
+    font-size: 24px;   /* Heading size chhota */
   }
 
-  main {
-    padding: 10px;
+  .input-box input {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    padding: 8px;
+    font-size: 18px;
   }
 }
