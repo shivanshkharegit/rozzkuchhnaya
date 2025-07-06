@@ -74,6 +74,14 @@ nav ul li a {
   transition: color 0.3s ease;
 
   
+
+
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Golden hover */
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -82,10 +90,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-}
-
-}
-
-nav ul li a:hover {
-  color: #ffd700; /* Golden hover */
 }
