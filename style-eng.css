@@ -13,8 +13,10 @@ font-family: 'Noto Sans Devanagari', sans-serif;
     p{
       text-align: center;
     }
-    h2 {
+    .main-heading{
       color: #2e7d32;
+          text-align:center;
+          margin-top:2px;
     }
     .poem {
         text-align: center;
@@ -74,4 +76,34 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.container {
+      max-width: 750px;
+      margin: 20px auto;
+      background-color: mistyrose;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .ae{
+      text-align: left;
+      color: black;
+    }
+    .para{
+      color:light black;
+    }
+    .be{
+      text-align: left;
+      color: black;
+      margin-bottom: 1px;
+    }
+    .ce{
+      color: black;
+      margin-top: 1px;
+    }
+    .para2{
+      text-align: left;
+      color: black;
+    }
 
