@@ -1,101 +1,22 @@
-/* Common Styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
-.container {
-  background: #fff;
-  max-width: 900px;
-  width: 90%;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-}
-
-/* Common Form Box Styles */
-.form-box h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.input-box input {
-  width: 100%;
-  padding: 12px 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  border: none;
-  background: #eee;
-  font-size: 15px;
-}
-
-.btn {
-  width: 100%;
-  padding: 12px;
-  background: #7494ec;
-  border: none;
-  border-radius: 8px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.social-icons a {
-  margin: 0 5px;
-  font-size: 20px;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 8px;
-  border-radius: 6px;
-}
-
-/* Mobile Styles */
-@media screen and (max-width: 600px) {
-  .container {
-    padding: 20px;
+/* Responsive Tablet & Mobile */
+@media (max-width: 1024px) {
+  .nav ul {
+    gap: 15px;
   }
 
-  .form-box h1 {
-    font-size: 22px;
-  }
-
-  .input-box input {
-    padding: 10px;
-    font-size: 13px;
-  }
-
-  .btn {
-    padding: 10px;
-    font-size: 13px;
+  .logo {
+    font-size: 20px;
   }
 }
 
-/* Tablet Styles */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .container {
-    width: 85%;
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
   }
 
-  .form-box h1 {
-    font-size: 26px;
-  }
-}
-
-/* Large Screen */
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 800px;
-  }
-}
