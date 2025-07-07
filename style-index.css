@@ -82,14 +82,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 25px;
   background-color: #222;
   color: white;
   position: relative;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: white;
   letter-spacing: 1px;
@@ -97,4 +97,33 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/* Hamburger Icon */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsive Tablet & Mobile */
+@media (max-width: 1024px) {
+  .nav ul {
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+  }
 
