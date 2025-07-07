@@ -98,13 +98,7 @@ footer {
   padding: 10px;
 }
 
-/* Hamburger Icon */
-.menu-icon {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: white;
-}
+
 
 /* Responsive Tablet & Mobile */
 @media (max-width: 1024px) {
