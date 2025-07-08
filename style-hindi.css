@@ -30,6 +30,7 @@ margin-top:2px;
       white-space: pre-line;
     }
     footer {
+          position: fixed;
       margin-top: 40px;
       text-align: center;
       font-size: 0.9em;
