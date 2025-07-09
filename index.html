@@ -27,7 +27,7 @@
 </nav>
 
 <div class="container">
-    <h2>Roj Ka Shabd</h2>
+    <h2>Word of The Day</h2>
 
 <hr style="border: none; height: 4px; background: linear-gradient(to right, #ccc0f7, #ccc0f7); margin: 20px 0;">
 
@@ -38,14 +38,14 @@
 
   <!-- Container 2 -->
   <div class="container">
-    <h2> Aaj Ka Itihaas</h2>  
+    <h2> Study Tips and Strategies</h2>  
     <hr style="border: none; height: 4px; background: linear-gradient(to right, #ccc0f7, #ccc0f7); margin: 20px 0;">
     <p><strong>6 July 1946</strong> : Sylvester Stallone ka janm hua tha-Rocky aur Rambo ke creator.</p>
   </div>
 
   <!-- Container 3 -->
   <div class="container">
-    <h2>Seekho Kuchh Naya</h2>
+    <h2>Resources and Tools for Students </h2>
     <hr style="border: none; height: 4px; background: linear-gradient(to right, #ccc0f7, #ccc0f7); margin: 20px 0;">
     <p>Mobile fast kaise banaye:<br>
       <b>&rarr; Unwanted apps delete karo</b><br>
@@ -54,6 +54,9 @@
 
     </p>
   </div>
+    <div class="container">
+        <h2>Tiny Lessons, Big Impact In 5 mins</h2>
+    </div>
 
   <div class="container">
     <h2>Soch Badlo</h2>
@@ -61,18 +64,25 @@
     <p></p>
   </div>
 
-  <div class="container">
-    <h2>Duniya Dekho</h2>
-    <hr style="border: none; height: 4px; background: linear-gradient(to right, #ccc0f7, #ccc0f7); margin: 20px 0;">
-    <p><strong>Venice, Italy</strong> Ek sheher jo paani ke upar bana hai- jahaan sadke nhi hai, sirf canals hain! </p>
-  </div>
+<div class="commentcontainer">
+<section style="margin-top: 50px; padding: 20px;">
+  <h2 class="commentheading">💬 Share Your Thoughts Below!</h2>
 
-  <div class="container">
-    <h2>Tum Kya Sochte Ho?</h2>
-    <hr style="border: none; height: 4px; background: linear-gradient(to right, #ccc0f7, #ccc0f7); margin: 20px 0;">
+  <form id="commentForm" action="https://formsubmit.co/rozzkuchhnaya@gmail.com" method="POST">
+    <textarea name="comment" id="commentInput" rows="4" cols="50" placeholder="Write your comment here..." required></textarea><br><br>
+    
+    <input type="text" name="name" placeholder="Name" required><br><br>
+    <input type="email" name="email" placeholder=" Email" required><br><br>
+    
+    <button type="submit">Post Comment</button>
+  </form>
 
+  <h3>Comments:</h3>
+  <ul id="commentList"></ul>
 
-  </div>
+  <p id="thankYouMessage" style="display:none; color:green; margin-top:10px;">Dhanyavaad! Apka comment bhej diya gaya hai.</p>
+</section>
+</div>
     
   
      
