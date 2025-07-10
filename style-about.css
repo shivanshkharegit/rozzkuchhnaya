@@ -49,3 +49,12 @@ p{
   color: black;
   text-align: left;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
