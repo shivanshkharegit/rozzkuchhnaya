@@ -42,9 +42,11 @@ h1 {
 }
 h3{
   color:black;
+  text-align:center;
 }
 h4{
   color:black;
+    text-align:center;
 }
 
 
@@ -62,6 +64,7 @@ h4{
     h2 {
       color: #008080;
       margin-bottom: 20px;
+        text-align:center;
     }
 
     p {
