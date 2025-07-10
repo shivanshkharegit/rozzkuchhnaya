@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, #f9f9f9, #caeaee);
   font-family: 'Segoe UI', sans-serif;
   color: #333;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -39,7 +39,12 @@ h1 {
   font-weight: bold;
   font-size: 14px;
 }
-
+h3{
+  color:black;
+}
+h4{
+  color:black;
+}
 
 
 
@@ -61,6 +66,7 @@ h1 {
     p {
       color: #555555;
       line-height: 1.6;
+      color: black;
     }
   .separator {
   height: 3px;
