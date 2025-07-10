@@ -13,32 +13,32 @@ h1 {
 
   
 
-.navbar {
-  background-color: #000000;
+}
+nav {
+  background-color: #333;
   padding: 10px 0;
+  margin-bottom: 20px;
 }
 
-.nav-links {
+nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* For mobile responsiveness */
-  margin: 0;
-  padding: 0;
- 
-  white-space: nowrap;
+  text-align: center;
 }
 
-.nav-links li {
-  margin: 0 10px;
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-.nav-links a {
+nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: #ffffff;
   font-weight: bold;
-  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Golden hover */
 }
 h3{
   color:black;
