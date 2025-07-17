@@ -1,41 +1,94 @@
-body {
-      font-family: 'Noto Sans Devanagari', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      padding: 0;
-      max-width: 10000px;
+ * {
       margin: 0;
-      line-height: 1.8;
+      padding: 0;
+      box-sizing: border-box;
     }
-    h1 {
-      color: #e65100;
-      text-align: center;
-    }
-    .para{
-      text-align: left;
+
+    body {
+      font-family: 'Noto Sans Devanagari', sans-serif;
+      background: #fff8e1;
       
-      color: black;
-margin-top:2px;
+      line-height: 1.8;
+      padding: 20px;
     }
-    .main{
-      color: black;
-      margin-bottom: 2px;
-    }
-    .poem {
-        text-align: center;
-      background-color: #fff3e0;
-      padding: 10px;
-      border-left: 5px solid #ff9800;
-      margin: 20px 0;
-      white-space: pre-line;
-    }
-    footer {
-          position: fixed;
-      margin-top: 40px;
+
+    header {
       text-align: center;
-      font-size: 0.9em;
-      color: #888;
+      padding-bottom: 20px;
     }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #c0392b;
+    }
+
+    .author {
+      font-size: 1.2rem;
+      color: black;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      background: #fefaf3;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 0 14px rgba(0, 0, 0, 0.08);
+    }
+
+    h2, h3 {
+      color: #2c3e50;
+      margin-top: 25px;
+    }
+
+    p {
+      margin: 15px 0;
+      font-size: 1.05rem;
+    }
+
+    .poem-block {
+      margin: 25px 0;
+      background: #fff2e0;
+      padding: 15px 20px;
+      border-left: 6px solid #c0392b;
+      border-radius: 10px;
+    }
+
+    .poem-block p {
+      margin: 5px 0;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .explain {
+      margin-top: 10px;
+      font-style: italic;
+      color: #000000;
+      background: #fdf1e5;
+      padding: 10px 15px;
+      border-radius: 6px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+  position: auto;
+  bottom: 0;
+  width: 100%;
+  
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+     
 nav {
   background-color: #333;
   padding: 10px 0;
@@ -70,16 +123,11 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 
-blockquote{
-  line-height: 20px;
-  margin-top: 20px;
-  color: black;
-}
-.main2{
-  margin-bottom: 2px;
-  color: #2e7d32;
-}
-p{
-  color: black;
+.main{
   text-align: center;
+  color: #3f51b5;
+}
+.mainpara{
+  text-align: center;
+  color: black;
 }
