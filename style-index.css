@@ -80,7 +80,7 @@ h4{
 
 
 footer {
-  position: fixed;
+  position: auto;
   bottom: 0;
   width: 100%;
   background-color:#333;
