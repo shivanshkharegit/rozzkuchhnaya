@@ -16,9 +16,8 @@
       text-align: center;
       padding-bottom: 20px;
     }
-
-    header h1 {
-      
+ .title {
+      text-align: center;
       color: #c0392b;
     }
 
@@ -131,3 +130,8 @@ nav ul li a:hover {
   text-align: center;
   color: black;
 }
+
+
+    .para{
+      text-align: center;
+    }
