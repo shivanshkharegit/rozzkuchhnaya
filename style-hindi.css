@@ -131,7 +131,8 @@ nav ul li a:hover {
   text-align: center;
   color: black;
 }
-
+.writer{
+      text-align:left;
 
     .para{
       text-align: center;
