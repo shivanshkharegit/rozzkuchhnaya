@@ -36,11 +36,15 @@
       box-shadow: 0 0 14px rgba(0, 0, 0, 0.08);
     }
 
-    h2, h3 {
+    h2,  {
       color: #2c3e50;
       margin-top: 25px;
     }
-
+ h3{
+       color: #2c3e50;
+      margin-top: 25px;
+      text-align: center;
+    }
     p {
       margin: 15px 0;
       font-size: 1.05rem;
@@ -135,5 +139,9 @@ nav ul li a:hover {
       text-align:right;
 
     .para{
+      text-align: center;
+    }
+      .last{
+      color: black;
       text-align: center;
     }
