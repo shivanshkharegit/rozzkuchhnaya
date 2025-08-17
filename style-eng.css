@@ -33,31 +33,54 @@ font-family: 'Noto Sans Devanagari', sans-serif;
       color: #888;
     }
 nav {
-  background-color: #333;
-  padding: 10px 0;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px 20px;
 }
 
-nav ul {
+/* Nav list for desktop */
+.nav-list {
+  display: flex;
   list-style: none;
-  text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-  margin: 0 15px;
+.nav-list li {
+  margin-left: 20px;
 }
 
-nav ul li a {
-  color: #fff;
+.nav-list li a {
+  color: black;
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  font-weight: 500;
 }
 
-nav ul li a:hover {
-  color: #ffd700; /* Golden hover */
+/* Hamburger icon */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color:: pointer;
+} black;
+  cursor
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .nav-list li {
+    margin: 15px 0;
+    text-align: center;
+  }
+  .menu-toggle {
+    display: block;
+  }
 }
+
 .separator {
   height: 3px;
   width: 80%;
@@ -107,4 +130,5 @@ footer {
       text-align: left;
       color: black;
     }
+
 
