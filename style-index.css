@@ -28,7 +28,7 @@ h1 {
 }
 
 .nav-list li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: 500;
 }
@@ -37,7 +37,7 @@ h1 {
 .menu-toggle {
   display: none;
   font-size: 28px;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -165,5 +165,6 @@ ul {
 .commentheading{
   color: blue;
 }
+
 
 
