@@ -1,7 +1,14 @@
-function toggleMenu(){
-    const nav=document.getElementById('nav').querySelector('ul');
-    nav.style.display= nav.style.display === 'flex' ? 'none' : 'flex';
-}
+const menu = document.getElementById('mobile-menu');
+const navList = document.querySelector('.nav-list');
+
+menu.addEventListener('click', () => {
+  if(navList.style.display === 'flex'){
+    navList.style.display = 'none';
+  } else {
+    navList.style.display = 'flex';
+  }
+});
+
 window.onscroll=function(){
     document.getElementById('topBtn').style.display=window.scrollY > 200?
     "block":"none";
@@ -68,4 +75,5 @@ document.getElementById('commentForm').addEventListener('submit', function(event
     this.submit(); // Ab original form submit karo (email ke liye)
   }
 });
+
 
