@@ -10,6 +10,7 @@ h1 {
   font-size:24px;
   text-align:center;
 }
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,9 +38,9 @@ h1 {
 .menu-toggle {
   display: none;
   font-size: 28px;
-  color: black;
-  cursor: pointer;
-}
+  color:: pointer;
+} black;
+  cursor
 
 /* Mobile View */
 @media only screen and (max-width: 768px) {
@@ -165,6 +166,7 @@ ul {
 .commentheading{
   color: blue;
 }
+
 
 
 
