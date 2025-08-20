@@ -33,36 +33,31 @@ font-family: 'Noto Sans Devanagari', sans-serif;
       color: #888;
     }
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  padding: 10px 20px;
+  background-color: #333;
+  padding: 10px 0;
+  margin-bottom: 20px;
 }
 
-/* Nav list for desktop */
-.nav-list {
-  display: flex;
+nav ul {
   list-style: none;
+  text-align: center;
 }
 
-.nav-list li {
-  margin-left: 20px;
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-.nav-list li a {
-  color: black;
+nav ul li a {
+  color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-/* Hamburger icon */
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  color:: pointer;
-} black;
-  cursor
+nav ul li a:hover {
+  color: #ffd700; /* Golden hover */
+}
 
 /* Mobile View */
 @media only screen and (max-width: 768px) {
@@ -130,5 +125,6 @@ footer {
       text-align: left;
       color: black;
     }
+
 
 
