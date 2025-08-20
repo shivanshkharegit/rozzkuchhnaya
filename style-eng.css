@@ -1,3 +1,4 @@
+body{
 font-family: 'Noto Sans Devanagari', sans-serif;
       background-color: #f9f9f9;
       color: #333;
@@ -92,15 +93,7 @@ font-family: 'Noto Sans Devanagari', sans-serif;
 }
 
 
-footer {
-  position: auto;
-  bottom: 0;
-  width: 100%;
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+
 
 .container {
       max-width: 750px;
@@ -132,6 +125,7 @@ footer {
       text-align: left;
       color: black;
     }
+
 
 
 
