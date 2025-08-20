@@ -112,15 +112,7 @@ footer {
   position: relative;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 1px;
-}
-  text-align: center;
-  padding: 10px;
-}
+.logo{font-size: 12px; font-weight: 600; margin: 15px; text-align:left; text-decoration: underline; text-decoration-color: #22c55e; font-family: cursive;}
 
 textarea {
   width: 100%;
@@ -161,6 +153,7 @@ ul {
 .commentheading{
   color: blue;
 }
+
 
 
 
