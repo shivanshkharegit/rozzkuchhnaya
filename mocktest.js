@@ -6,10 +6,10 @@ const BANK = {
     { q: "2 + 5 × 2 = ?", opts:["9","14","7","10"], ans:"12" } // trick
   ],
   jee: [
-    { q: "Derivative of x^2?", opts:["x","2x","x^3","3x^2"], ans:"2x" },
-    { q: "Limit of sin x / x as x→0?", opts:["0","1","∞","Does not exist"], ans:"1" },
-    { q: "∫ 0→1 2x dx =", opts:["1","0","2","3"], ans:"1" },
-    { q: "Unit of resistance?", opts:["Ohm","Volt","Ampere","Watt"], ans:"Ohm" }
+    { q: "A thermally insulated vessel contains 150 g of water at 0°C. Then the air from the vessel is pumped out adiabatically. A fraction of water turns into ice and the rest evaporates at 0°C itself. The mass of evaporated water will be closest to : /n ((Latent heat of vaporization of water= 2.10 × 106 J kg–1 and Latent heat of Fusion of water = 3.36 × 105 J kg–1)", opts:["130 g","35 g","20 g","150 g"], ans:"20 g" },
+    { q: "The temperature, at which the root mean square velocity of hydrogen molecules equals their escape velocity from the earth, is closest to : /n ([Boltzmann Constant kB = 1.38 × 10–23 J/K Avogadro Number NA = 6.02 × 1026 /kg Radius of Earth : 6.4 × 106 m Gravitational acceleration on Earth = 10ms–2)", opts:["650 K","3 x 10^5 K","10^4 K","800 K"], ans:"10^4 K" },
+    { q: "Two lenses of power –15 D and +5 D are in  contact with each other. The focal length of the combination is :", opts:["-20 cm","-10 cm","+20 cm","+10 cm"], ans:"-10 cm" },
+    { q: "In Young's experiment, the distance between two slits is made three times then the fringe width with become :-", opts:["9 times","1/9 times","3 times","1/3 times"], ans:"1/3 times" },
   ],
   neet: [
     { q:"Smallest bone in human body?", opts:["Stapes","Femur","Tibia","Ulna"], ans:"Stapes" },
@@ -124,9 +124,6 @@ function getSelected(){
 
 /* ---- Status helpers ---- */
 function visit(i){
-  if(status[i] === "not-visited") status[i] = "visited";
-}
-function saveTemp(){ // do not move next, just store current choice as visited/answered
   const v = getSelected();
   if(v !== null){
     answers[current] = v;
@@ -135,6 +132,9 @@ function saveTemp(){ // do not move next, just store current choice as visited/a
     status[current] = "visited";
   }
   updatePalette();
+  if(status[i] === "not-visited") status[i] = "visited";
+}
+function saveTemp(){ // do not move next, just store current choice as visited/answered
 }
 
 /* ---- Navigation and actions ---- */
