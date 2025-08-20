@@ -1,13 +1,7 @@
-const menu = document.getElementById('mobile-menu');
-const navList = document.querySelector('.nav-list');
 
-menu.addEventListener('click', () => {
-  if(navList.style.display === 'flex'){
-    navList.style.display = 'none';
-  } else {
-    navList.style.display = 'flex';
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
   }
-});
 
 window.onscroll=function(){
     document.getElementById('topBtn').style.display=window.scrollY > 200?
@@ -75,6 +69,7 @@ document.getElementById('commentForm').addEventListener('submit', function(event
     this.submit(); // Ab original form submit karo (email ke liye)
   }
 });
+
 
 
 
