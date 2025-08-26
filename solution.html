@@ -169,6 +169,11 @@
   </div>
 
   <script>
+
+    function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+    
     const solutions = {
       ssc: [
         { name: " Solution", file: "pdfs/CSS Cheatsheet _ Blog _ CodeWithHarry.pdf", date: "2025-08-24" },
@@ -238,9 +243,7 @@
 
       solutionList.appendChild(ul);
 
-  function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-  }
+ 
 
 
     }
