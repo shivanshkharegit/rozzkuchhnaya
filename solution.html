@@ -234,10 +234,10 @@
         let li = document.createElement("li");
         if (index === 0) li.classList.add("latest");
         li.innerHTML = `
-          <a href="${sol.file}" target="_blank">${sol.name}</a>
+          <a href="${sol.file}" target="_blank"><div><span>${sol.name}</span>
           <span class="date">${sol.date}</span>
           ${index === 0 ? '<span class="badge">Latest</span>' : ""}
-        `;
+        </div></a>`;
         ul.appendChild(li);
       });
 
