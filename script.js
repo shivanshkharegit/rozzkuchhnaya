@@ -69,6 +69,8 @@ document.getElementById('commentForm').addEventListener('submit', function(event
     this.submit(); // Ab original form submit karo (email ke liye)
   }
 });
+<script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq101e600c3ca77504f192c9335872819cfefd8a863cf80e68096c713736dfec83" defer></script>
+
 
 
 
